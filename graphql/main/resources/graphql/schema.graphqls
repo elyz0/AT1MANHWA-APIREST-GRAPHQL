@@ -1,0 +1,29 @@
+type Manhwa {
+    id: ID!
+    titulo: String!
+    autor: String!
+    genero: String!
+    status: String!
+    descricao: String!
+    nota: Float!
+    capa: String!
+}
+
+type Query {
+    manhwas: [Manhwa!]!
+    manhwa(id: ID!): Manhwa
+}
+
+type Mutation {
+    criarManhwa(
+        titulo: String!,
+        autor: String!,
+        genero: String!,
+        status: String!,
+        descricao: String!,
+        nota: Float!,
+        capa: String!
+    ): Manhwa
+
+    deletarManhwa(id: ID!): Boolean
+}
