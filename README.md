@@ -1,7 +1,7 @@
 # ATIVIDADE1-Servidor-APIREST-FrontEnd  
 ## Projeto Manhwa Collection (REST + GraphQL)
 
-Escolha entre a versão REST ou GraphQL para desenvolvimento. Ambas as versões utilizam o H2 Database por padrão.
+Escolha entre a versão REST ou GraphQL, ambas as versões utilizam o H2 Database.
 
 ## 🌟 Pré-requisitos Comuns
 Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados:
